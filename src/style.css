@@ -9,6 +9,7 @@
 body {
   display: grid;
   grid-template-columns: 220px 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas:
     "sidebar header"
     "sidebar main";
@@ -33,7 +34,7 @@ li {
 
 .sidebar {
   background-color: #222222;
-  max-width: 319px;
+  width: 319px;
   min-height: 1080px;
   .logo {
     display: flex;
@@ -74,6 +75,7 @@ li {
 }
 
 .following {
+  margin-top: 90px;
   h3 {
     color: white;
     text-transform: uppercase;
@@ -96,4 +98,41 @@ li {
 .loadmore {
   padding: 0 30px;
   color: white;
+}
+
+header {
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  .search {
+    color: #111111;
+    background-color: #f8f8f8;
+    width: 446px;
+    min-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 12px;
+  }
+
+  .nextpage {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    span {
+      color: #ff2288;
+      font-size: 14px;
+    }
+
+    .load {
+      background-color: #ff2288;
+      border: none;
+      font-size: 14px;
+      padding: 20px 40px;
+      border-radius: 12px;
+      color: white;
+    }
+  }
 }
