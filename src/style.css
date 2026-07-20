@@ -7,4 +7,23 @@
 }
 
 .sidebar {
+  background-color: #222222;
+  max-width: 319px;
+  min-height: 1080px;
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    .mainlogo {
+      display: flex;
+      .start {
+        color: white;
+        font-weight: 900;
+        font-size: 24px;
+      }
+      .end {
+        color: white;
+        font-size: 24px;
+      }
+    }
+  }
 }
