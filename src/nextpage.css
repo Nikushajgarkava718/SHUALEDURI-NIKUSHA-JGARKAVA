@@ -183,7 +183,7 @@ li {
   gap: 14px;
 
   span {
-    display: none;
+    /* display: none; */
   }
 
   img {
