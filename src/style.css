@@ -700,8 +700,12 @@ li {
       .smartacademy {
         display: flex;
         gap: 4px;
+        p {
+          font-size: 16px;
+        }
         .academy {
           font-weight: bold;
+          font-size: 16px;
         }
       }
     }
