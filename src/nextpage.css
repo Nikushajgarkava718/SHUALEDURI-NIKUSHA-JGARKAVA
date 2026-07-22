@@ -134,6 +134,66 @@ li {
     }
   }
 }
+.orders {
+  border-top: 1px solid #d0d0d0;
+  margin: 0 16px;
+  padding: 0;
+
+  .ordertitle {
+    display: none;
+  }
+
+  .border {
+    padding: 5px 0;
+    border-bottom: 1px solid #d0d0d0;
+
+    .data {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: #afafaf;
+
+      p {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+      }
+
+      .date::before {
+        content: "Date";
+        font-weight: 600;
+        color: #222222;
+      }
+      .orderid::before {
+        content: "Order ID";
+        font-weight: 600;
+        color: #222222;
+      }
+      .namephone::before {
+        content: "Name";
+        font-weight: 600;
+        color: #222222;
+      }
+      .price::before {
+        content: "Price";
+        font-weight: 600;
+        color: #222222;
+      }
+      .quantity::before {
+        content: "Quantity";
+        font-weight: 600;
+        color: #222222;
+      }
+      .totalprice::before {
+        content: "Total";
+        font-weight: 600;
+        color: #222222;
+      }
+    }
+  }
+}
 
 .footer {
   margin-top: 40px;
@@ -344,6 +404,7 @@ li {
       padding: 30px;
       border-bottom: 1px solid #d0d0d0;
       display: flex;
+
       gap: 170px;
     }
 
@@ -353,6 +414,16 @@ li {
       .data {
         padding: 20px;
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        p {
+          display: block;
+        }
+
+        p::before {
+          display: none;
+        }
         color: #afafaf;
         &:hover {
           background-color: #f2f2f2;
