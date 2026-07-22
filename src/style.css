@@ -1,6 +1,3 @@
-/* ============================================
-   RESET (მუშაობს ორივე რეზოლუციაზე, ვიზუალს არ ცვლის)
-============================================ */
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +8,6 @@ ul,
 li {
   list-style: none;
 }
-
-/* ============================================
-   MOBILE (base) — ახალი, mobile-სპეციფიკური კოდი
-============================================ */
 
 .sidebar {
   background-color: #222222;
@@ -48,6 +41,7 @@ li {
 
   .navigation {
     padding: 0 16px;
+
     .icons {
       color: white;
       display: flex;
@@ -189,6 +183,7 @@ li {
       display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
+      margin-top: 20px;
 
       .photos {
         position: relative;
