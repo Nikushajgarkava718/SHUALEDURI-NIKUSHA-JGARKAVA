@@ -329,7 +329,8 @@ li {
 
   .media {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 16px;
     padding: 24px 0;
 
