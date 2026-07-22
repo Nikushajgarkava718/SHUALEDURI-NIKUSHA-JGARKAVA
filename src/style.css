@@ -13,7 +13,8 @@ body {
   grid-template-areas:
     "sidebar header"
     "sidebar main"
-    "sidebar design";
+    "sidebar design"
+    "sidebar footer";
 }
 
 .sidebar {
@@ -30,6 +31,9 @@ body {
 
 .design {
   grid-area: design;
+}
+.footer {
+  grid-area: footer;
 }
 
 ul,
@@ -288,6 +292,17 @@ header {
       background-color: white;
       border: 1px solid #919090;
       border-radius: 12px;
+    }
+  }
+}
+
+.footer {
+  .links {
+    display: flex;
+    .alllinks {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
   }
 }
