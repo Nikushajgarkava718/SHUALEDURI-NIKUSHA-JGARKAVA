@@ -12,7 +12,8 @@ body {
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "sidebar header"
-    "sidebar main";
+    "sidebar main"
+    "sidebar design";
 }
 
 .sidebar {
@@ -27,6 +28,10 @@ body {
   grid-area: main;
 }
 
+.design {
+  grid-area: design;
+}
+
 ul,
 li {
   list-style: none;
@@ -35,7 +40,7 @@ li {
 .sidebar {
   background-color: #222222;
   width: 320px;
-  min-height: 1080px;
+  height: 1080px;
   .logo {
     display: flex;
     justify-content: space-between;
@@ -234,21 +239,21 @@ header {
       margin-top: 90px;
     }
   }
+}
 
-  .designers {
-    margin-top: 70px;
-    background-color: #fafafa;
-    .topdesigners {
-      display: flex;
-      justify-content: space-between;
-      padding: 70px 150px;
-      h4 {
-        font-size: 32px;
-      }
-      p {
-        font-size: 14px;
-        color: #bcbcbc;
-      }
+.designers {
+  margin-top: 70px;
+  background-color: #fafafa;
+  .topdesigners {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 150px;
+    h4 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+      color: #bcbcbc;
     }
   }
 }
