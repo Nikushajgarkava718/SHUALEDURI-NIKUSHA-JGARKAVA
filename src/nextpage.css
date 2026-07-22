@@ -395,60 +395,6 @@ li {
     }
   }
 
-  /* .orders {
-    border-top: 1px solid #d0d0d0;
-    margin: 0 30px;
-    padding: 0 150px;
-    .ordertitle {
-      margin-top: 70px;
-      padding: 30px;
-      border-bottom: 1px solid #d0d0d0;
-      display: flex;
-
-      gap: 170px;
-    }
-
-    .border {
-      padding: 5px 0;
-      border-bottom: 1px solid #d0d0d0;
-      .data {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 0;
-        p {
-          display: block;
-        }
-
-        p::before {
-          display: none;
-        }
-        color: #afafaf;
-        &:hover {
-          background-color: #f2f2f2;
-          color: black;
-          border-radius: 12px;
-        }
-        .date {
-          margin-right: 80px;
-        }
-        .orderid {
-          margin-right: 175px;
-        }
-        .namephone {
-          margin-right: 70px;
-        }
-        .price {
-          margin-right: 143px;
-        }
-        .quantity {
-          margin-right: 226px;
-        }
-      }
-    }
-  } */
-
   .orders {
     border-top: 1px solid #d0d0d0;
     margin: 0 30px;
