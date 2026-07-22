@@ -8,7 +8,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 320px 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "sidebar header"
@@ -34,7 +34,7 @@ li {
 
 .sidebar {
   background-color: #222222;
-  width: 319px;
+  width: 320px;
   min-height: 1080px;
   .logo {
     display: flex;
@@ -101,7 +101,6 @@ li {
 }
 
 header {
-  margin-left: 90px;
   display: flex;
   justify-content: space-between;
   padding: 30px;
@@ -142,10 +141,9 @@ header {
 
 .main {
   border-top: 1px solid #d0d0d0;
-  margin-left: 120px;
-  margin-right: 25px;
+  margin: 0 30px;
   .categories {
-    padding: 0 160px;
+    padding: 0 150px;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -170,6 +168,70 @@ header {
       border: 1px solid #d8d8d8;
       padding: 15px 25px;
       border-radius: 12px;
+    }
+  }
+
+  .nextsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bigphotos {
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+      margin-top: 40px;
+      padding: 0 150px;
+      .photos {
+        position: relative;
+        p {
+          margin-top: 16px;
+        }
+      }
+
+      .photos img {
+        width: 100%;
+        display: block;
+        border-radius: 12px;
+      }
+
+      .photo-actions {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        display: none;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .photos:hover .photo-actions {
+        display: flex;
+      }
+
+      .icon-btn {
+        width: 36px;
+        height: 36px;
+        background-color: white;
+        border-radius: 12px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .icon-btn img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .loadmore {
+      color: black;
+      padding: 20px 110px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 90px;
     }
   }
 }
