@@ -234,4 +234,21 @@ header {
       margin-top: 90px;
     }
   }
+
+  .designers {
+    margin-top: 70px;
+    background-color: #fafafa;
+    .topdesigners {
+      display: flex;
+      justify-content: space-between;
+      padding: 70px 150px;
+      h4 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+        color: #bcbcbc;
+      }
+    }
+  }
 }
