@@ -84,13 +84,25 @@
       </div>
     </aside>
     <header class="header">
-      <div class="search">
+        <form class="search" role="search">
+        <label for="search-input" class="visually-hidden">Search inspiration</label>
+        <input
+             type="search"
+            id="search-input"
+            name="search"
+            placeholder="Search inspiration"
+            />
+            <button type="submit" aria-label="Search">
+             <img src="src/img/searchicon.png" alt="" />
+            </button>
+        </form>
+      <!-- <div class="search">
         <div>
           <span>Search inspiration</span>
         </div>
         <div>
           <img src="src/img/searchicon.png" alt="search" />
-        </div>
+        </div> -->
       </div>
       <div class="nextpage">
         <span>GO PRO!</span>
