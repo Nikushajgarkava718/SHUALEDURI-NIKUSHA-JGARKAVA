@@ -301,13 +301,42 @@ header {
 .footer {
   margin-top: 70px;
   padding: 0 150px;
+
   .links {
     display: flex;
-    gap: 220px;
+    gap: 180px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #d0d0d0;
     .alllinks {
+      max-width: 142px;
       display: flex;
       flex-direction: column;
       gap: 30px;
+      a {
+        text-decoration: none;
+        color: #222222;
+      }
+    }
+  }
+
+  .media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    .socialmedia {
+      display: flex;
+      gap: 20px;
+      img {
+        max-width: 24px;
+        height: 24px;
+      }
+    }
+    .smartacademy {
+      display: flex;
+      gap: 4px;
+      .academy {
+        font-weight: bold;
+      }
     }
   }
 }
