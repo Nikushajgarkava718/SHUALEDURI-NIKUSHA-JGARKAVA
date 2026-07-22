@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 ul,
@@ -704,7 +705,7 @@ li {
           font-size: 16px;
         }
         .academy {
-          font-weight: bold;
+          font-weight: 900;
           font-size: 16px;
         }
       }
